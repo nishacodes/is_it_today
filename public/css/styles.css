@@ -1,0 +1,19 @@
+
+
+.confetti {
+  background-image: url('/images/confetti.gif')
+}
+
+.snow {
+  background-image: url('/images/snow.gif');
+  color: red;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 150px;
+  font-family: 'Varela Round', sans-serif;
+  color: #FF4040;
+  text-align: center;
+  padding-top: 15%;
+}
