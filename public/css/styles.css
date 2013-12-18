@@ -1,4 +1,7 @@
-
+a { 
+  color: inherit; 
+  text-decoration: none;
+}
 
 .confetti {
   background-image: url('/images/confetti.gif')
@@ -16,4 +19,26 @@ h1 {
   color: #FF4040;
   text-align: center;
   padding-top: 15%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 125px;
+  left: 0;
+  background-color: rgba(0,0,0,0.1);
+  display: block;
+  position: absolute;
+}
+
+ul {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12pt;
+  color: black;
+  text-align: center;
+  line-height: 2;
+}
+
+li:hover {
+  background-color: white;
+  cursor: pointer;
 }
