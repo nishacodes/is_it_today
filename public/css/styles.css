@@ -62,7 +62,7 @@ a {
   height: 100%;
   width: 150px;
   left: 0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.3);
   display: block;
   position: absolute;
 }
@@ -70,7 +70,7 @@ a {
 ul {
   font-family: 'Varela Round', sans-serif;
   font-size: 12pt;
-  color: black;
+  color: white;
   text-align: center;
   line-height: 2;
 }
@@ -83,6 +83,7 @@ ul {
 li:hover {
   background-color: white;
   cursor: pointer;
+  color: black;
 }
 .button {
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
