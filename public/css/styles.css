@@ -1,29 +1,54 @@
+h1 {
+  font-size: 150px;
+  font-family: 'Varela Round', sans-serif;
+  /*color: #FF4040;*/
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
 a { 
   color: inherit; 
   text-decoration: none;
 }
 
-.confetti {
-  background-image: url('/images/confetti.gif')
+.birthday {
+  background-image: url('/images/birthday.gif');
+  color: red;
 }
 
-.snow {
-  background-image: url('/images/snow.gif');
+.christmas {
+  background-image: url('/images/christmas.gif');
   color: red;
   background-size: 100%;
 }
 
-h1 {
-  font-size: 150px;
-  font-family: 'Varela Round', sans-serif;
-  color: #FF4040;
-  text-align: center;
-  padding-top: 15%;
+.halloween {
+  background-image: url('/images/halloween.gif');
+  color: orange;
+  background-size: 100%;
+}
+
+.valentines {
+  background-image: url('/images/valentines.gif');
+  color: #F55BB5;
+  
 }
 
 .sidebar {
   height: 100%;
-  width: 125px;
+  width: 150px;
   left: 0;
   background-color: rgba(0,0,0,0.1);
   display: block;
@@ -38,7 +63,37 @@ ul {
   line-height: 2;
 }
 
+.bold {
+  font-weight: 900;
+  font-size: 16pt; 
+}
+
 li:hover {
   background-color: white;
   cursor: pointer;
 }
+.button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+  background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+  background-color:#f9f9f9;
+  -webkit-border-radius:11px 11px 11px 11px;
+  -moz-border-radius:11px 11px 11px 11px;
+  height: 20px;
+  width: 150px;
+  vertical-align: middle;
+  margin: 0 auto;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+  background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+  background-color:#e9e9e9;
+}.button:active {
+  position:relative;
+  top:1px;
