@@ -43,8 +43,20 @@ a {
 .valentines {
   background-image: url('/images/valentines.gif');
   color: #F55BB5;
-  
 }
+
+.newyears {
+  background-image: url('/images/newyears.gif');
+  color: white;
+  /*background-size: 100%;*/
+}
+
+.fourthofjuly {
+  background-image: url('/images/fourthofjuly.gif');
+  color: white;
+  background-size: 100%;
+}
+
 
 .sidebar {
   height: 100%;

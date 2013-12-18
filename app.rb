@@ -10,7 +10,10 @@ module Birthday
       @holiday_dates = {"birthday" => "10/27",
                "christmas" => "12/25",
                "halloween" => "10/31",
-               "valentines" => "2/14"}
+               "valentines" => "2/14",
+               "newyears" => "12/31",
+               "fourthofjuly" => "7/4",
+             }
     end
     
     get '/' do # birthday is default home page
