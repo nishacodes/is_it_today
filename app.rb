@@ -19,6 +19,7 @@ module Birthday
     get '/' do # birthday is default home page
       @image = "confetti" if @birthday == @date
           @date == @birthday ? @is_it_today = "YESSS" : @is_it_today = "NO"
+      @holiday = "birthday"
       erb :index 
     end
 
